@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Pocket Planner</string>
+    <string name="app_logo">App Logo</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_twitter">Login with Twitter</string>
+    <string name="title_activity_navigate">navigate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_graph">Graph</string>
+    <string name="menu_envelop">Envelop</string>
+    <string name="empty_gallery">Empty gallery</string>
+    <string name="no_receipts_found">No receipts found</string>
+    <string name="add_first_receipt">Add First Receipt</string>
+    <string name="fullscreen_receipt">Fullscreen receipt image</string>
+    <string name="search_receipts">Search receipts</string>
+    <string name="min_goal_format">Min Goal: %s</string>
+    <string name="max_goal_format">Max Goal: %s</string>
+    <string name="badge_icon_desc">Achievement badge</string>
+
+    <style name="Widget.MaterialComponents.Button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

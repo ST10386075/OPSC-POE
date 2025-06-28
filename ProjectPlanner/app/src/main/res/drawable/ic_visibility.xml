@@ -1,0 +1,20 @@
+<!-- res/drawable/ic_visibility_two_tone.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tintMode="src_in"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- The outer eye -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M12,4.5C7.305,4.5,3.25,7.69,1,12c2.25,4.31,6.305,7.5,11,7.5s8.75-3.19,11-7.5c-2.25-4.31-6.305-7.5-11-7.5z" />
+
+    <!-- The pupil (two–tone) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M12,9c1.656,0,3,1.344,3,3s-1.344,3-3,3-3-1.344-3-3,1.344-3,3-3z" />
+
+</vector>
+

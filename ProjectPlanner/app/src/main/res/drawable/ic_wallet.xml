@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Final Wallet Icon with Clear, Distinct Colors -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Wallet body -->
+    <path
+        android:fillColor="#FF1C2833"
+        android:pathData="M2,7C2,5.895 2.895,5 4,5H20C21.105,5 22,5.895 22,7V17C22,18.105 21.105,19 20,19H4C2.895,19 2,18.105 2,17V7Z" />
+
+    <!-- Angled card peeking out -->
+    <path
+        android:fillColor="#FF546E7A"
+        android:pathData="M3.5,5.5L15,3C15.55,2.9 16.1,3.3 16.2,3.9L16.7,5.5H3.5Z" />
+
+    <!-- Clasp area -->
+    <path
+        android:fillColor="#FF1C2833"
+        android:pathData="M15,14H22V16H15V14Z" />
+
+    <!-- Button hole (white) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M18.5,15A1,1 0 1,1 20.5,15A1,1 0 1,1 18.5,15Z" />
+
+</vector>
+
+

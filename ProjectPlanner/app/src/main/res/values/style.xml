@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FormToggleButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="FormToggleButton.Selected" parent="FormToggleButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/bottom_border_primary</item>
+    </style>
+</resources>

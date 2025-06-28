@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="File Paths">
+
+        <EditTextPreference
+            android:key="image_path"
+            android:title="Image Path"
+            android:summary="Path for images"
+            android:defaultValue="Pictures/" />
+
+        <EditTextPreference
+            android:key="receipt_path"
+            android:title="Receipt Path"
+            android:summary="Path for receipts"
+            android:defaultValue="Receipts/" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
